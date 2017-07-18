@@ -43,11 +43,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-bodyModel</artifactId>
-            <scope>bodyModel</scope>
-        </dependency>
 
         <dependency>
             <groupId>junit</groupId>

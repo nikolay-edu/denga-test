@@ -1,3 +1,6 @@
+Получение всего списка билетов.
+curl -H "Content-Type: application/json" http://localhost:8080/api/ticket
+
 Получение списка билетов между двумя датами.
 Даты передаются в json, departure - дата отправления, arrival - дата прибытия
 curl -H "Content-Type: application/json" -X POST -d '{"departure":1496005100000, "arrival":1505336400001}' http://localhost:8080/api/ticket/search
